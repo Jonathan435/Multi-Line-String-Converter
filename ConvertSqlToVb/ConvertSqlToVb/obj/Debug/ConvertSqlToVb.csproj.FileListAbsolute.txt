@@ -1,0 +1,13 @@
+C:\Users\jonathana\Documents\Visual Studio 2012\Projects\ConvertSqlToVb\ConvertSqlToVb\bin\Debug\ConvertSqlToVb.exe.config
+C:\Users\jonathana\Documents\Visual Studio 2012\Projects\ConvertSqlToVb\ConvertSqlToVb\bin\Debug\ConvertSqlToVb.exe
+C:\Users\jonathana\Documents\Visual Studio 2012\Projects\ConvertSqlToVb\ConvertSqlToVb\bin\Debug\ConvertSqlToVb.pdb
+C:\Users\jonathana\Documents\Visual Studio 2012\Projects\ConvertSqlToVb\ConvertSqlToVb\obj\Debug\ConvertSqlToVb.csprojResolveAssemblyReference.cache
+C:\Users\jonathana\Documents\Visual Studio 2012\Projects\ConvertSqlToVb\ConvertSqlToVb\obj\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\jonathana\Documents\Visual Studio 2012\Projects\ConvertSqlToVb\ConvertSqlToVb\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\jonathana\Documents\Visual Studio 2012\Projects\ConvertSqlToVb\ConvertSqlToVb\obj\Debug\ConvertSqlToVb.csproj.GenerateResource.Cache
+C:\Users\jonathana\Documents\Visual Studio 2012\Projects\ConvertSqlToVb\ConvertSqlToVb\obj\Debug\ConvertSqlToVb.exe
+C:\Users\jonathana\Documents\Visual Studio 2012\Projects\ConvertSqlToVb\ConvertSqlToVb\obj\Debug\ConvertSqlToVb.pdb
+C:\Users\jonathana\Documents\Visual Studio 2012\Projects\ConvertSqlToVb\ConvertSqlToVb\bin\Debug\ConvertSqlToVb.exe.manifest
+C:\Users\jonathana\Documents\Visual Studio 2012\Projects\ConvertSqlToVb\ConvertSqlToVb\bin\Debug\ConvertSqlToVb.application
+C:\Users\jonathana\Documents\Visual Studio 2012\Projects\ConvertSqlToVb\ConvertSqlToVb\obj\Debug\ConvertSqlToVb.exe.manifest
+C:\Users\jonathana\Documents\Visual Studio 2012\Projects\ConvertSqlToVb\ConvertSqlToVb\obj\Debug\ConvertSqlToVb.application

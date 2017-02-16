@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ConvertSqlToVb.exe" version="1.0.0.5" publicKeyToken="7a0e62e53c666c34" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="convert_ICON.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ConvertSqlToVb" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ConvertSqlToVb.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ConvertSqlToVb.exe" size="387072">
+      <assemblyIdentity name="ConvertSqlToVb" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>B3w2wLZDyHuf8Xol4DdAKl8Hgo6D+H3jD71ANJoKLH4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="convert_ICON.ico" size="5430">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NJW5Hxv/frD7hBMIeWgNdjsO/80d7HJEdt3OOhcgpp8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ConvertSqlToVb.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Oxygen-Icons.org-Oxygen-Actions-view-pim-tasks.ico" size="193798">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d0xGa8KOkeadZKWhGwDUvwFsYPXBCFBs2xpazPyvIrk=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ORANGE\jonathana" issuerKeyHash="c6bd6c3dfe94a839674b7067676632894940d376" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>VJi0lCVfzvZ8nLidlUqYRAZzAvUvGZ17lSHgKUPdyEA=</DigestValue></Reference></SignedInfo><SignatureValue>brRGNroOkx0vsd2rB+bAgIp5oTF8jn+w3JYT8nzXdq9Zj9ri8LPDuEx4ILx526S8i6JDhbfhkpOs4kb9J+jFkmSXkMdsMmA3Rj7ZiHYT15t4B1Zmm6vZfnl8X0hahL4wyjjjE4QrFlcKu4niHmKpKSY306muyaUtM+Ff0YfJ9wA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>v9a0773ApEhEGb+swLtwC3ExARdsQOIfgCWftN8Yfw+euk+I2cc6ldn/P8XdbBc1by3Mn7jpvMKyU7Wvm/zz4c/b13bfQmTuqcDLS/UwLFcvdSVTJO+tOVre1bs8yEjB4E98X1tRM8WLN0+p2L1ddZdc/hHyGamcAhrUwQh927U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="40c8dd4329e021957b9d192ff502730644984a959db89c7cf6ce5f2594b49854" Description="" Url=""><as:assemblyIdentity name="ConvertSqlToVb.exe" version="1.0.0.5" publicKeyToken="7a0e62e53c666c34" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ORANGE\jonathana</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>+ztLosOywSslCSWAQRcI5vpct6gT7v/fsLr4YAnHwN8=</DigestValue></Reference></SignedInfo><SignatureValue>HNM3g++gSdViPoefFkUDc/jdWxjXspmyQlnwLYr2Uh8fxYlvCWnfnzTc2kG8zPMNsF9FZb8Nvl3WagHqWdQVmFssrw+dl6dTsgvXoIX+QijfVZ/owmgZmMpOJlbIpWBzrsBHKSRsFYp/Q6PPxDp/sEqcVmLsn83A/RpHx+gFhuE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>v9a0773ApEhEGb+swLtwC3ExARdsQOIfgCWftN8Yfw+euk+I2cc6ldn/P8XdbBc1by3Mn7jpvMKyU7Wvm/zz4c/b13bfQmTuqcDLS/UwLFcvdSVTJO+tOVre1bs8yEjB4E98X1tRM8WLN0+p2L1ddZdc/hHyGamcAhrUwQh927U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQeGjpBOKNkZlN8hpJdrA5ujANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAATwBSAEEATgBHAEUAXABqAG8AbgBhAHQAaABhAG4AYTAeFw0xNzAyMTUxNDM5MjhaFw0xODAyMTUyMDM5MjhaMCsxKTAnBgNVBAMeIABPAFIAQQBOAEcARQBcAGoAbwBuAGEAdABoAGEAbgBhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC/1rTvvcCkSEQZv6zAu3ALcTEBF2xA4h+AJZ+03xh/D566T4jZxzqV2f8/xd1sFzVvLcyfuOm8wrJTta+b/PPhz9vXdt9CZO6pwMtL9TAsVy91JVMk7605Wt7VuzzISMHgT3xfW1EzxYs3T6nYvV11l1z+EfIZqZwCGtTBCH3btQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBALDwzS4vX+zmVFS8uY74cS7rA75qI43jmmZlbYtmMVmz19bJC7Wkow73cVi1jMIjfy54pGcD60qM78UH5b22TbUBgNfIEHC8uAGM0DOUFV7k1syiaNARUE7NVm+BWy3SvaP1jNMqmDSXjPb+LrN1wbGG1zXrLaB1+MU6fDmQCnwk</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
